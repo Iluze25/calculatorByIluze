@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <!-- input data -->
+         <div id="warpInput">
+            <input id="input" type="text" placeholder="Calculator">
+        </div>
+
+        <!-- tombol keyword -->
+        <div id="parentKey">
+            <div id="keyword">
+                <!-- reset delete -->
+                <button onclick="reset()" type="button" id="reset">C</button>
+                <button onclick="deleted()" type="button" id="delete">Delete</button>
+                <button onclick="tambah()" type="button" id="tambah">+</button>
+                <!-- angka -->
+                <button onclick="satu()" type="button" id="satu">1</button>
+                <button onclick="dua()" type="button" id="dua">2</button>
+
+                <button onclick="kurang()" type="button" id="kurang">-</button>
+
+                <button onclick="tiga()" type="button" id="tiga">3</button>
+                <button onclick="empat()" type="button" id="empat">4</button>
+
+                <button onclick="kali()" type="button" id="kali">x</button>
+
+                <button onclick="lima()" type="button" id="lima">5</button>
+                <button onclick="enam()" type="button" id="enam">6</button>
+
+                <button onclick="bagi()" type="button" id="bagi">/</button>
+
+                <button onclick="tujuh()" type="button" id="tujuh">7</button>
+                <button onclick="delapan()" type="button" id="delapan">8</button>
+
+                <button onclick="koma()" type="button" id="koma">,</button>
+
+                <button onclick="sembilan()" type="button" id="sembilan">9</button>
+                <button onclick="nol()" type="button" id="nol">0</button>
+
+                <!-- Action -->
+                <button onclick="Result()" type="button" id="result">=</button>
+            </div>
+        </div>
+    </div>
+    <div id="meme" style="position: absolute; display: none;">
+        <video autoplay height="300vw" width="auto" loop muted style="position: absolute; left: -20.8vw;">
+            <source src="meme.mp4">
+        </video>
+        <video autoplay height="300vw" width="auto" loop muted style="position: absolute; left: -20.8vw; top: 34vw;">
+            <source src="meme.mp4">
+        </video>
+            <source src="meme.mp4">
+        </video>
+    </div>
+</body>
+</html>
